@@ -1,0 +1,180 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.div{
+  padding: 10px;
+}
+
+h1{
+  color: #fff;
+}
+
+.logo_txt{
+  padding: 0px 20px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.search{
+  background-color: #fff;
+  border-radius: 5px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 40px;
+  height: 50px;
+  padding: 0px 20px;
+}
+
+input{
+  border: none;
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+input:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.search_btn{
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid rgb(192, 176, 176);
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+button{
+  background-color: rgb(228, 20, 20);
+  color: #fff;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.clothes{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 60px 0px;
+  gap: 50px 20px;
+  border-bottom: 1px solid black;
+  .clothes_card{
+      img{
+          width: 3000px;
+          height: 300px;
+      }
+  }
+}
+.cart{
+  padding: 0px 0px;
+}
+.swiper1{
+  background-image: url(./assets/img/banner.jpg);
+  width: 1365px;
+  height: 413px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 80px;
+  .swiper1_h1{
+      font-size: 44px;
+  }
+  .swiper1_strong{
+      font-size: 20px;
+  }
+  .swiper1_btn{
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+      border: black 1px solid;
+      cursor: pointer;
+      background-color: pink;
+      font-size: 16px;
+  }
+  .swiper1_btn:hover{
+      background-color: #680226;
+      color: #fff;
+  }
+}
+.swiper2{
+  background-image: url(./assets/img/banner_star_wars.jpg);
+  width: 1365px;
+  height: 413px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 80px;
+  .swiper2_h1{
+      font-size: 36px;
+  }
+  .swiper2_strong{
+      font-size: 16px;
+  }
+  .swiper2_btn{
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+      border: black 1px solid;
+      cursor: pointer;
+      background-color: #fff;
+      font-size: 16px;
+      color: #000;
+  }
+  .swiper2_btn:hover{
+      background-color: #191919;
+      color: #fff;
+  }
+}
+.swiper3{
+  background-image: url(./assets/img/banner_carousel.jpg);
+  width: 1366px;
+  height: 413px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 80px;
+  .swiper3_h1{
+      font-size: 36px;
+      color: #fff;
+  }
+  .swiper3_strong{
+      font-size: 16px;
+      color: #fff;
+  }
+  .swiper3_btn{
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+      border: #fff 1px solid;
+      cursor: pointer;
+      background-color: #000;
+      font-size: 16px;
+      color: #fff;
+  }
+  .swiper3_btn:hover{
+      background-color: #fff;
+      color: #000;
+  }
+}
